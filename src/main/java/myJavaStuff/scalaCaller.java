@@ -1,10 +1,10 @@
 package myJavaStuff;
 
-import minScalaStuff.myApp;
+import appEntryPoints.HelloWorld;
 
 public class scalaCaller {
-  public static void main(String[] args) {
-    System.out.println("cme@ scalaCaller.main");
-    myApp.main(args);
-  }
+	public static void main(String[] args) {
+		System.out.println("cme@ scalaCaller.main");
+		HelloWorld.main(args);
+	}
 }
